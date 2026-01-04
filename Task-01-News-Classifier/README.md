@@ -1,3 +1,27 @@
+# News Topic Classifier Using BERT
+
+## Overview
+This project fine-tunes a **DistilBERT** model to classify news headlines into topic categories
+using the **AG News dataset**.
+
+## Model
+- DistilBERT (Hugging Face Transformers)
+- Fine-tuned for multi-class text classification
+
+## Dataset
+- AG News Dataset
+
+## Demo (Local)
+The application was tested locally using **Gradio**.
+
+Local demo runs at:
+http://127.0.0.1:7860
+
+> Note: This is a local development link. A temporary public link was generated when running the app in Google Colab.
+
+## Results
+- Accuracy and F1-score evaluated on validation data
+- Interactive predictions via Gradio UI
 {
   "nbformat": 4,
   "nbformat_minor": 0,
